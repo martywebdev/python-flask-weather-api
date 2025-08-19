@@ -14,4 +14,4 @@ def about(station, date):
             "temperature": temperature}
     return render_template('about.html')
 if __name__ == "__main__": # this is will only run directly not when imported remember that
-    app.run(debug=True)
+    app.run(debug=True, port=8000)
